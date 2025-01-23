@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
 		"virtualMachines_Region": {
-            "defaultValue": "eastus2",
+            "defaultValue": "westus2",
 			"allowedValues": [
 				"eastus2",
 				"japaneast",
@@ -23,7 +23,7 @@
             "type": "securestring"
         },		
         "virtualMachines_gamevm_sku": {
-            "defaultValue": "Standard_NG8ads_V620_v1",
+            "defaultValue": "NV6ads_A10_v5",
 			"allowedValues": [
 				"Standard_NG8ads_V620_v1",
 				"Standard_NG16ads_V620_v1",
